@@ -42,7 +42,7 @@
                                 <animations/>
                                 <state key="normal" title="Open"/>
                                 <connections>
-                                    <segue destination="gjl-S5-lF2" kind="show" id="uQb-FY-2Ix"/>
+                                    <segue destination="gjl-S5-lF2" kind="show" identifier="openColor" id="uQb-FY-2Ix"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bdT-sd-Jlx">
