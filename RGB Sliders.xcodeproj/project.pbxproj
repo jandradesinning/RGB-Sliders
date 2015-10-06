@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F717478F1BC48381003E5BC5 /* secondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F717478E1BC48381003E5BC5 /* secondaryViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		F7931A991BC3332700630EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7931A981BC3332700630EB2 /* AppDelegate.swift */; };
 		F7931A9B1BC3332700630EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7931A9A1BC3332700630EB2 /* ViewController.swift */; };
 		F7931A9E1BC3332700630EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7931A9C1BC3332700630EB2 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F717478E1BC48381003E5BC5 /* secondaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondaryViewController.swift; sourceTree = "<group>"; };
 		F7931A951BC3332700630EB2 /* RGB Sliders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RGB Sliders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7931A981BC3332700630EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7931A9A1BC3332700630EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				F7931A9F1BC3332700630EB2 /* Assets.xcassets */,
 				F7931AA11BC3332700630EB2 /* LaunchScreen.storyboard */,
 				F7931AA41BC3332700630EB2 /* Info.plist */,
+				F717478E1BC48381003E5BC5 /* secondaryViewController.swift */,
 			);
 			path = "RGB Sliders";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7931A9B1BC3332700630EB2 /* ViewController.swift in Sources */,
+				F717478F1BC48381003E5BC5 /* secondaryViewController.swift in Sources */,
 				F7931A991BC3332700630EB2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +485,7 @@
 				F7931ABF1BC3332700630EB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7931AC01BC3332700630EB2 /* Build configuration list for PBXNativeTarget "RGB SlidersTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				F7931AC21BC3332700630EB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7931AC31BC3332700630EB2 /* Build configuration list for PBXNativeTarget "RGB SlidersUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				F7931AC51BC3332700630EB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
